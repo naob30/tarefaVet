@@ -1,0 +1,133 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fafafa;
+  height: 100px;
+  width: 100vw;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  margin-left: 90px;
+  margin-right: 10px;
+  height: 80px;
+}
+
+.logo h3 {
+  width: 100px;
+  color: #2a4f61;
+  font-size: 25px;
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
+/* BOTÃO ATENDIMENTO*/
+
+
+.atendimento {
+    margin-right: 90px;
+}
+
+.atendimento a {
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    background-color: #2A4F61;
+    transition: all 0.3s;
+    position: relative;
+}
+.atendimento a:hover {
+    color: #2A4F61;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 0px;
+    background-color: transparent;
+    border-top: 2px #2A4F61 solid;
+    border-bottom: 2px #2A4F61 solid;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------- */
+/* BANNER */
+
+.banner {
+    display: flex;
+    align-items: center;
+  width: 100vw;
+  height: calc(100vh - 145px);
+}
+
+.banner::before{
+    content: "";
+    background-image: url(img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: calc(100vh - 145px);
+    position: absolute;
+    z-index: -1;
+}
+
+.banner img {
+    margin-left: 20px;
+  height: 400px;
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
+/* CARDS - BOTÕES */
+
+.card {
+    margin: 10px;
+    width: 250px;
+    background-color: rgb(250, 250, 250, 0.6);
+    box-shadow: 5px 5px 10px 0px rgba(255,255,255,0.2);
+}
+
+.card h5 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #2A4F61;
+}
+
+.btn {
+    background-color: #2A4F61;
+    border: 2px #2A4F61 solid;
+    transition: all 0.3s;
+    position: relative;
+}
+.btn:hover {
+    border-radius: 0px;
+    color: #2A4F61;
+    border-top: 2px #2A4F61 solid;
+    border-bottom: 2px #2A4F61 solid;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+    height: 45px;
+    width: 100vw;
+  }
