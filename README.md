@@ -1,4 +1,4 @@
-# tarefaVet
+# Tarefa Clínica Veterinária
 
 ### FATEC Franco da Rocha 
 #### Grupo: Nayara de Oliveira Brabo
